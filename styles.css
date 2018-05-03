@@ -1,0 +1,82 @@
+*{
+    text-align: center;
+    border-style: none;
+    font-family:​ ​Roboto​ ​Mono,​ ​Rubik​ ​(headers);
+    Font-weight:​ ​normal,​ ​600;
+}
+body{
+    background-color: #ccc;
+}
+h1{
+    color: #E34E45;
+}
+.container{
+    background-color: white;
+    width: 425px;
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.table{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #ADAAAA;
+}
+.create{
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    left: 50%;
+    margin-left: -213px;
+    top: 100px;
+    background-color: white;
+    width: 425px;
+    height: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #888888;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #EEE;
+}
+.save{
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #008000;
+}
+.clear{
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E34E45;
+}
+p{
+    position: absolute;
+    background-color: #ADAAAA;
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px;
+}
