@@ -39,6 +39,7 @@ $(document).ready(function () {
        mouseY = e.pageY;
     });  
     $(".create").hide();
+    $("p").hide();
     $(".save").click(function () {
         $(".create").hide();
         if (ClickedID == 1) {
@@ -143,6 +144,8 @@ $(document).ready(function () {
     
 
 
+    },function(){
+        $("p").hide();
     });
 
     function getTable(id) {
